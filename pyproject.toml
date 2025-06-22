@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "fastmcp>=2.8.1",
+    "httpx>=0.28.1",
+    "mcp>=1.9.4",
+    "pydantic>=2.11.7",
+]
