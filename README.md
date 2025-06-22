@@ -1,6 +1,6 @@
 
 For STDIO, 
-- replace this line at the end
+- replace this line at the end in main.py
 ```
 if __name__ == "__main__":
 	mcp.run(transport="stdio")
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 }
 ```
 
-- For remote server and making calls with it,
+- For remote server and making calls with it, make this change in main.py at the end
 ```
 if __name__ == "__main__":
     mcp.run(transport="streamable-http", port=3001)
