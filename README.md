@@ -1,3 +1,4 @@
+To run, set AUTH_TOKEN, CUSTOMER_SUBDOMAIN in environment
 
 For STDIO, 
 - replace this line at the end in main.py
